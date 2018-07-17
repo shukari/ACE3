@@ -56,6 +56,6 @@ private _units = units _unit;
     };
 } forEach _units;
 
-[_pos, ["Building"], _units, _radius, _mode, _topDownMode, _teleport] call EFUNC(ai,garrison);
+[_pos, ["Building", "House"], _units, _radius, _mode, _topDownMode, _teleport] call EFUNC(ai,garrison);
 
 deleteVehicle _logic;
